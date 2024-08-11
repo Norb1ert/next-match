@@ -18,7 +18,7 @@ export default function RootLayout({
       <body>
         <TopNav />
         <Providers>
-          <main className="container mx-auto py-10">{children}</main>
+          <main className="container mx-auto ">{children}</main>
         </Providers>
       </body>
     </html>
